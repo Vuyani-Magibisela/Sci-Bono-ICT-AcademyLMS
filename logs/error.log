@@ -313,3 +313,8 @@
 [2025-04-06 21:01:56] Error (2): Undefined variable $currentPage in C:\xampp\htdocs\Sci-Bono-ICT-AcademyLMS\app\views\components\header.php on line 14
 [2025-04-06 21:01:56] Error (2): Undefined variable $currentPage in C:\xampp\htdocs\Sci-Bono-ICT-AcademyLMS\app\views\components\header.php on line 15
 [2025-04-06 21:01:56] Error (2): Undefined variable $currentPage in C:\xampp\htdocs\Sci-Bono-ICT-AcademyLMS\app\views\components\header.php on line 16
+[2025-04-06 21:05:47] Error (2): Undefined variable $currentPage in C:\xampp\htdocs\Sci-Bono-ICT-AcademyLMS\app\views\components\header.php on line 12
+[2025-04-06 21:05:47] Error (2): Undefined variable $currentPage in C:\xampp\htdocs\Sci-Bono-ICT-AcademyLMS\app\views\components\header.php on line 13
+[2025-04-06 21:05:47] Error (2): Undefined variable $currentPage in C:\xampp\htdocs\Sci-Bono-ICT-AcademyLMS\app\views\components\header.php on line 14
+[2025-04-06 21:05:47] Error (2): Undefined variable $currentPage in C:\xampp\htdocs\Sci-Bono-ICT-AcademyLMS\app\views\components\header.php on line 15
+[2025-04-06 21:05:47] Error (2): Undefined variable $currentPage in C:\xampp\htdocs\Sci-Bono-ICT-AcademyLMS\app\views\components\header.php on line 16
