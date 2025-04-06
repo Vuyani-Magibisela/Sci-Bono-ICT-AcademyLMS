@@ -6,9 +6,14 @@ const header = document.querySelector('header');
 // Mobile Menu Toggle
 if (mobileMenuBtn) {
     mobileMenuBtn.addEventListener('click', () => {
-        mainNav.classList.toggle('active');
-        mobileMenuBtn.querySelector('i').classList.toggle('fa-bars');
-        mobileMenuBtn.querySelector('i').classList.toggle('fa-times');
+        if (mainNav) {
+            mainNav.classList.toggle('active');
+        }
+        const icon = mobileMenuBtn.querySelector('i');
+        if (icon) {
+            icon.classList.toggle('fa-bars');
+            icon.classList.toggle('fa-times');
+        }
     });
 }
 
@@ -76,8 +81,20 @@ if ('IntersectionObserver' in window) {
 
 // Add animation classes to hero elements on page load
 document.addEventListener('DOMContentLoaded', () => {
-    document.querySelector('.hero h1').classList.add('fade-in');
-    document.querySelector('.hero h2').classList.add('fade-in');
-    document.querySelector('.hero p').classList.add('fade-in');
-    document.querySelector('.hero .cta-buttons').classList.add('fade-in');
+    const heroH1 = document.querySelector('.hero h1');
+    if (heroH1) {
+        heroH1.classList.add('fade-in');
+    }
+    const heroH2 = document.querySelector('.hero h2');
+    if (heroH2) {
+        heroH2.classList.add('fade-in');
+    }
+    const heroP = document.querySelector('.hero p');
+    if (heroP) {
+        heroP.classList.add('fade-in');
+    }
+    const heroButtons = document.querySelector('.hero .cta-buttons');
+    if (heroButtons) {
+        heroButtons.classList.add('fade-in');
+    }
 });

@@ -1,0 +1,6 @@
+[2025-04-06 16:23:29] Exception: Class "\App\Controllers\ErrorController" not found in C:\xampp\htdocs\Sci-Bono-ICT-AcademyLMS\core\Router.php on line 208
+Stack Trace: #0 C:\xampp\htdocs\Sci-Bono-ICT-AcademyLMS\core\Router.php(166): Core\Router->handleNotFound()
+#1 C:\xampp\htdocs\Sci-Bono-ICT-AcademyLMS\core\Application.php(30): Core\Router->resolve()
+#2 C:\xampp\htdocs\Sci-Bono-ICT-AcademyLMS\public\index.php(18): Core\Application->run()
+#3 {main}
+--------------------

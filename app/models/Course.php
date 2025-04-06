@@ -128,7 +128,7 @@ class Course
      * Create a new course
      *
      * @param array $data Course data
-     * @return int|false Last insert ID or false on failure
+     * @return int|string|false Last insert ID or false on failure
      */
     public function create($data)
     {

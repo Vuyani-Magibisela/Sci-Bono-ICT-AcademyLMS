@@ -25,9 +25,9 @@ class BaseController
         ob_start();
         
         // Include the view file
-        $viewPath = __DIR__ . "/../views/{$view}.php";
+        $viewPath = ROOT_PATH . "/app/views/{$view}.php";
         if (file_exists($viewPath)) {
-            require $viewPath;
+            include $viewPath;
         } else {
             throw new \Exception("View '{$view}' not found");
         }
@@ -41,9 +41,9 @@ class BaseController
         }
         
         // Include the layout
-        $layoutPath = __DIR__ . "/../views/layouts/{$layout}.php";
+        $layoutPath = ROOT_PATH . "/app/views/layouts/{$layout}.php";
         if (file_exists($layoutPath)) {
-            require $layoutPath;
+            include $layoutPath;
         } else {
             // If layout doesn't exist, just output the content
             echo $content;
@@ -80,7 +80,7 @@ class BaseController
     /**
      * Get authenticated user
      *
-     * @return object|null User object or null if not authenticated
+     * @return array|false|null User data array if found, false if not found, null if not logged in
      */
     protected function getAuthUser()
     {

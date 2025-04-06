@@ -1,17 +1,4 @@
-/* Global Variables */
-:root {
-    --primary-color: #4B6EFB;
-    --secondary-color: #6E4BFB;
-    --accent-color: #FB4B4B;
-    --accent-green: #4BFB9D;
-    --text-dark: #333333;
-    --text-light: #666666;
-    --background-light: #F9F9FF;
-    --white: #FFFFFF;
-    --grey-light: #EEEEEE;
-    --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    --transition: all 0.3s ease;
-}
+
 
 /* Base Styles */
 * {

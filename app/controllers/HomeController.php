@@ -21,9 +21,10 @@ class HomeController extends BaseController
         $courseModel = new Course();
         $featuredCourses = $courseModel->getFeaturedCourses();
         
-        $this->render('pages/home', [
+        return $this->render('pages/home', [
             'title' => 'YDP Training - Sci-Bono Youth Development Program',
-            'featuredCourses' => $featuredCourses
+            'featuredCourses' => $featuredCourses,
+            'extraCss' => ['home'] // Add this line to include home.css
         ]);
     }
     
